@@ -1,0 +1,31 @@
+.section-title {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 3 rem;
+  background: linear-gradient(
+    45deg,
+    rgb(255, 72, 72),
+    rgba(252, 196, 100, 0.858)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: center;
+}
+.profile-cd{
+    text-align: center;
+}
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    opacity: 0.9;
+    text-align: left;
+  }
+  .about-text p {
+    margin-bottom: 1.5rem;
+  }

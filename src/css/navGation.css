@@ -1,0 +1,90 @@
+.navbar {
+    width: 100%;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 0.099);
+    border-bottom: solid 1px rgba(0, 0, 0, 0.259);
+    backdrop-filter: blur(10px);
+    padding: 1rem 0;
+  }
+  .navbar-content {
+    /* border: solid 1px rgb(0, 0, 0); */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .logo-portfolio {
+    /* border: solid 1px rgb(0, 0, 0); */
+    /* width: 11%; */
+    /* display: inherit; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* right: 100%; */
+    position: relative;
+    right: 10%;
+    font-weight: 800;
+    background: linear-gradient(45deg, #ff6b6b, #feca57);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    /* border: solid 1px rgb(0, 0, 0); */
+    /* width: 30%; */
+    margin-left: -1%;
+    display: inherit;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+  .toggle {
+    background:  rgba(255, 255, 255, 0.21);
+    border-radius: 50px;
+    width: 6%;
+    color:rgb(56, 53, 53);
+    padding: 0.5 rem 1 rem;
+    transition: all 0.3s ease;
+    &:hover {
+      background: rgba(30, 29, 29, 0.41);
+      transform: scale(1.05);
+    }
+  }
+  .nav-link {
+    font-weight: bold;
+    /* border: solid 2px black; */
+    /* margin-left: 10px; */
+    cursor: pointer;
+    /* padding: 5px; */
+    /* border-radius: 5px; */
+    font-size: 1.1rem;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    position: relative;
+    &:hover {
+      /* background-color: #535bf2; */
+      color: #feca57;
+      transform: scale(1.1);
+    }
+    &::after {
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #feca57;
+      transition: width 0.3s ease;
+    }
+    &:hover::after {
+      width: 100%;
+    }
+  }
+  
