@@ -1,0 +1,29 @@
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+}
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+.skills-icon {
+  font-size: 3rem;
+}
+.skills-list {
+ display: flex;
+ gap:0.5rem;
+ flex-wrap: wrap;
+ margin-top: 1rem;
+}
+.skill-name {
+    background-color: rgba(255, 255, 255, 0.316);
+    backdrop-filter: blur(10px);
+    border-radius:50px;
+    padding:0.5rem 1rem;
+    border:1px solid rgba(255, 255, 255, 0.504);
+    /* opacity: 0.8; */
+    font-size: 0.9rem;
+}
