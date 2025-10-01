@@ -22,7 +22,7 @@ function Contact() {
             <textarea id='message' placeholder='Your Message' required />
             </div>
             <div className='form-group'>
-            <button type='submit'>Submit</button>
+            <button type='submit' className='btn btn-primary submit-btn'>Send Message</button>
             </div>
             {/* </form> */}
           </div>
