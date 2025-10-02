@@ -14,10 +14,9 @@ function About() {
           </div>
           <div className='about-text'> 
            <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis tenetur quo quasi voluptatum blanditiis error quisquam, soluta hic animi sint dignissimos! Provident, ex non. Nostrum, tempora? Accusantium eaque facere veniam!
-           </p>
+           I'm a passionate developer who loves bringing ideas to life through code. With a keen eye for design and a strong foundation in modern web technologies, I create digital solutions that are both beautiful and functional.</p>
            <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.lorem lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+           My journey in web development started with curiosity and has evolved into a deep passion for creating user-centered experiences. I believe in writing clean, maintainable code and staying up-to-date with the latest industry trends.
            </p>
           </div>
         </div>

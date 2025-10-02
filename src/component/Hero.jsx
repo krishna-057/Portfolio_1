@@ -18,8 +18,8 @@ function Hero() {
             <a href="#projects" className="btn btn-primary">
               View Projects
             </a>
-            <a href="#contact" className="btn btn-secondary">
-              Contact Me
+            <a href="https://drive.google.com/uc?export=download&id=10U73wDPw3OmC0rGahWnWibABXVSnJeti" className="btn btn-secondary">
+              Download Resume
             </a>
           </div>
         </div>

@@ -18,8 +18,18 @@
   /* text-decoration: none; */
 }
 .footer-social-link-text {
-  text-decoration-color: rgb(0, 0, 228);
+  text-decoration-color: rgb(138, 138, 207);
   text-decoration-thickness: 2px;
   font-size: 1.4rem;
   color: white;
+}
+.footer-note {
+  margin-bottom: -1.5rem;
+  text-align: center;
+}
+.footer-social-link-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  margin-bottom: -6px;
 }
