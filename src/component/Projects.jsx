@@ -13,6 +13,8 @@ function Projects() {
         "HTML",
         "CSS",
         "JavaScript",
+        "Kaagle",
+        "Pyngrok",
         "Whisper(OpenAI)",
         "NLLB-200(Meta)",
         "Indic-parler-TTS(AI4Bharat)",
@@ -23,18 +25,26 @@ function Projects() {
     {
       title: "Natural Language to SQL",
       description:
-        "This project focuses on bridging the gap between human-readable queries and structured database queries by developing a Natural Language to SQL (NL2SQL) system. The system allows users to input questions in plain English, and it automatically generates accurate SQL queries that can be executed on a relational database.",
-      tech: ["Python", "Fastapi", "MySQL", "HTML", "CSS", "JavaScript"],
+        "The system allows users to input questions in plain English, and it automatically generates accurate SQL queries that can be executed on a relational database.",
+      tech: ["Python", "Fastapi", "MySQL", "PyTorch","Pyngrok","ChatDB/natural-sql-7b","Jupyter", "HTML", "CSS", "JavaScript"],
       icon: "🧮",
       link: "https://github.com/krishna-057/Natural_Language_to_SQL",
     },
     {
       title: "Techcracy",
       description:
-        "lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.",
-      tech: ["React", "Node.js", "MongoDB"],
+        "Techcracy is a responsive web application built for the Techfest of Central Institute of Technology, Kokrajhar (CITK). It was designed to provide an engaging digital platform for showcasing events, schedules, and activities of the fest.",
+      tech: ["React.js", "TypeScript", "SCSS"],
       icon: "🎨",
       link: "https://github.com/krishna-057/Techcracy",
+    },
+    {
+      title: "User Authentication System",
+      description:
+        "User Authentication System is a full-stack backend application built to handle secure user registration, login, and protected routes. It ensures password safety, role-based access, and token-based session management. It has modern UI to interact with authentication flows (sign up, login, profile, etc.).",
+      tech: ["Node.js", "MongoDB", "Mongoose","Express.js","JWT","Bcrypt","CORS"],
+      icon: "🎨",
+      link: "https://github.com/krishna-057/user-authentication-system",
     },
   ];
 
@@ -78,7 +88,7 @@ function Projects() {
                   display: "inherit",
                 }}
               >
-                <h3 style={{borderBottom: "2px dotted rgba(255, 255, 255, 0.504)"}}>{project.title}</h3>
+                <h3 style={{borderBottom: "2px dotted rgba(255, 255, 255, 0.504), cursor:'pointer'"}}>{project.title}</h3>
                     </a>
                     <br />
                     <p>{project.description}</p>
