@@ -11,6 +11,10 @@
     backdrop-filter: blur(10px);
     padding: 1rem 0;
   }
+  body.light-mode{
+    background: rgba(0, 0, 0, 0.897);
+    /* color: #333; */
+  }
   .navbar-content {
     /* border: solid 1px rgb(0, 0, 0); */
     /* width: 100%; */
@@ -43,7 +47,7 @@
     align-items: center;
     list-style: none;
   }
-  .toggle {
+  /* .toggle {
     background:  rgba(255, 255, 255, 0.21);
     border-radius: 50px;
     width: 6%;
@@ -51,10 +55,10 @@
     padding: 0.5 rem 1 rem;
     transition: all 0.3s ease;
     &:hover {
-      background: rgba(30, 29, 29, 0.41);
+      background: rgba(212, 210, 210, 0.41);
       transform: scale(1.05);
     }
-  }
+  } */
   .nav-link {
     font-weight: bold;
     /* border: solid 2px black; */
@@ -87,4 +91,18 @@
       width: 100%;
     }
   }
-  
+  .toggle {
+    background: rgba(255, 255, 255, 0.193);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 50px;
+    padding: 0.5rem 1rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+  }
+  .toggle:hover {
+    background: rgba(203, 200, 200, 0.564);
+    border: 1px solid rgba(255, 255, 255, 0.61);
+    transform: scale(1.08);
+  }

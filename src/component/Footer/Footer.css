@@ -5,9 +5,11 @@
 .footer-content {
   padding: 2rem 0;
   border: solid 1px rgb(0, 0, 0);
+  background: #3c24706c;
+  backdrop-filter: blur(10px);
+
   /* border-top-left-radius: 100px; */
   /* border-top-right-radius: 100px; */
-  background: #311e59c6;
 }
 .footer-socials {
   padding: 1rem 0;

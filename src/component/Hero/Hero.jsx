@@ -1,6 +1,6 @@
 import React from "react";
 // import "../css/hero.css";
-import "../css/Hero.css";
+import "./Hero.css";
 function Hero() {
   return (
     <section className="hero" id="home">

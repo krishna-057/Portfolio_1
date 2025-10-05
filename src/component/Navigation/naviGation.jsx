@@ -1,6 +1,6 @@
-import React from 'react'
-import '../css/navGation.css'
-function Nav() {
+import React, {useState, useEffect} from 'react'
+import './navGation.css'
+const Nav=({dMode, toggleTheme})=> {
   return (
     <>
     <nav className='navbar'>
@@ -14,7 +14,7 @@ function Nav() {
         <li><a href="#projects" className='nav-link'>Projects</a></li>
         <li><a href="#contact" className='nav-link'>Contact</a></li>
       </ul>
-      <button className='toggle'>Dark</button>
+      <button onClick={toggleTheme} className='toggle' aria-label='Toggle Theme'>{dMode ? '🌙Dark':'☀️Light'}</button>
       </div>
     </nav>
     </>

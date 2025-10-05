@@ -1,24 +1,27 @@
 import React from "react";
-import "../css/Skills.css";
+import "./Skills.css";
+import frontendImage from "../../assets/frontend.png";
+import backendImage from "../../assets/backend.png";
+import aiImage from "../../assets/AI_ML.png";
 function Skills() {
   const skillCategories = [
     {
-      icon: "🚀",
+      image: frontendImage,
       title: "Frontend Development",
       description: "Creating responsive, interactive user interfaces",
       skills: ["React", "JavaScript", "TypeScript", "CSS3", "HTML5"],
     },
     {
-      icon: "⚡",
+      image: backendImage,
       title: "Backend Development",
       description: "Building robust server-side applications",
-      skills: ["Node.js", "Express", "MongoDB", "PostgreSQL", "REST APIs"],
+      skills: ["Node.js", "Express.js", "MongoDB", "PostgreSQL", "REST APIs","Python","Pyngrok", "Fastapi", "MySQL","JWT","Bcrypt","CORS"],
     },
     {
-      icon: "🛠️",
-      title: "Tools & Technologies",
-      description: "Modern development tools and workflows",
-      skills: ["Git", "Webpack", "Docker", "AWS", "Figma"],
+      image: aiImage,
+      title: "AI/ML",
+      description: "AI/ML tools and workflows",
+      skills: ["PyTorch","Kaagle", "Jupyter", "NumPy", "Pandas", "Matplotlib", "TensorFlow", "Keras", "PyTorch", "Hugging Face", ],
     },
   ];
   return (

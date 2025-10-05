@@ -1,11 +1,11 @@
 import React from "react";
-import "../css/Contact.css";
+import "./Contact.css";
 function Contact() {
   return (
     <div>
       <section className="section" id="contact">
         <div className="container">
-          <h1 className="section-title">Contact Us</h1>
+          <h1 className="section-title">Contact Me</h1>
           <div className="contact-content glass-cd">
             <p>
               Have a project in mind? I'd love to hear from you. Let's create

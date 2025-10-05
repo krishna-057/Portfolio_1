@@ -1,9 +1,9 @@
 import React from "react";
-import "../css/Footer.css";
-import githubIcon from "../assets/github.png";
-import linkedinIcon from "../assets/linkedin.png";
-import mediumIcon from "../assets/medium.png";
-import emailIcon from "../assets/gmail.png";
+import "./Footer.css";
+import githubIcon from "../../assets/github.png";
+import linkedinIcon from "../../assets/linkedin.png";
+import mediumIcon from "../../assets/medium.png";
+import emailIcon from "../../assets/gmail.png";
 function Footer() {
   // const logo = require('../assets/github-mark.png');
   const contactDetails = [

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "../css/Projects.css";
+import "./Projects.css";
 
 function Projects() {
   const projectsInfo = [
