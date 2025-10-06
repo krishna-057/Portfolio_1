@@ -6,6 +6,7 @@ import Skills from "./component/Skills/Skills.jsx";
 import Prjects from "./component/Projects/Projects.jsx";
 import Contact from "./component/Contact/Contact.jsx";
 import Footer from "./component/Footer/Footer.jsx";
+import Scroll from "./component/Scroll/scroll.jsx";
 import { useState, useEffect } from "react";
 function App() {
   const [dMode, setDMode] = useState(true);
@@ -42,6 +43,7 @@ function App() {
       <Prjects />
       <Contact />
       <Footer />
+      <Scroll />
     </>
   );
 }
