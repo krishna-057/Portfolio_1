@@ -1,4 +1,4 @@
-.scroll-container {
+ .scroll-container {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,8 +8,15 @@
     z-index: 9999;
   }
   
-  .scroll-bar {
+  .light-mode .scroll-bar {
     height: 100%;
     background: linear-gradient(90deg, #ff6b6b, #feca57, #48bb78);
+    transition: width 0.1s ease;
+  }
+  
+  
+   .scroll-bar {
+    height: 100%;
+    background: linear-gradient(90deg,#066aff, #e5f49b ,#f9f7f9 );
     transition: width 0.1s ease;
   }
