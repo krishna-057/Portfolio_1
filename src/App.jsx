@@ -9,7 +9,9 @@ import Footer from "./component/Footer/Footer.jsx";
 import Scroll from "./component/Scroll/scroll.jsx";
 import { useState, useEffect } from "react";
 function App() {
+
   const [dMode, setDMode] = useState(true);
+  
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
     if(savedTheme){
@@ -31,6 +33,7 @@ function App() {
   const toggleTheme = () => {
     setDMode(!dMode);
   }
+
   return (
     <>
       <Nav 

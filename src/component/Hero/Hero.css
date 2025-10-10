@@ -31,7 +31,7 @@
     );
   /* animation: float 6s ease-in-out infinite; */
 }
-.animated{
+.light-mode .animated{
   position: absolute;
   border-radius: 50%;
   filter: blur(10px);
@@ -40,7 +40,15 @@
   animation: float 8s ease-in-out infinite;
   z-index: 10;
 }
-.cir1{
+/* .dark-mode .animated{
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(10px);
+  width: 100px;
+  animation: float 8s ease-in-out infinite;
+  z-index: 10;
+} */
+  .light-mode .cir1{
   width:40px;
   height:40px;
   top: 30%;
@@ -49,7 +57,7 @@
   box-shadow: 10px 0px 5px 2px rgb(93, 159, 127);
   animation-delay: 0s;
 }
-.cir2{
+.light-mode .cir2{
   width:40px;
   height:40px;
   top: 30%;
@@ -57,7 +65,7 @@
   background:  rgba(254, 202, 87, 0.4);
   animation-delay: 2s;
 }
-.cir3{
+.light-mode .cir3{
   width:40px;
   height:40px;
   bottom: 20%;
