@@ -1,12 +1,16 @@
-import React from 'react'
-import './scroll.css'
+import React from "react";
+import "./scroll.css";
 
-const Scroll=()=>{
-    return (
-        <div className='scroll-container'>
-            <div className='scroll-bar' style={{width:'40%'}}></div>
-        </div>
-    );
+const Scroll = ({ position }) => {
+  const height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
+  const sPercentage =height>0? (position / height) * 100:0;
+  return (
+    <div className="scroll-container">
+      <div className="scroll-bar" style={{ width: `${sPercentage}%` }}></div>
+    </div>
+  );
 };
 
 export default Scroll;
