@@ -23,9 +23,9 @@ function Hero() {
             View Projects
           </a>
           <a
-            href="https://drive.google.com/uc?export=download&id=10U73wDPw3OmC0rGahWnWibABXVSnJeti"
+            href="https://drive.google.com/uc?export=download&id=1ZLIC6Eh2uBP3jsygioJ70ISSZqUCA1Vo/view?usp=sharing"
+            >
             className="btn btn-secondary"
-          >
             Download Resume
           </a>
         </div>
